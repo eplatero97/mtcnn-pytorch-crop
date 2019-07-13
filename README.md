@@ -1,20 +1,15 @@
-# MTCNN
+# MTCNN CROP
 
-`pytorch` implementation of **inference stage** of face detection algorithm described in  
+An MTCNN pytorch implementation to detect and crop face region on an image as described by   
 [Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://arxiv.org/abs/1604.02878).
 
-## Example
-![example of a face detection](images/example.png)
-
-## How to use it
-Just download the repository and then do this
-```python
-from src import detect_faces
-from PIL import Image
-
-image = Image.open('image.jpg')
-bounding_boxes, landmarks = detect_faces(image)
+## Instructions
+Download the repository and then
+```linux
+train.py --file-path path_to_images -output-directory output_path
 ```
+The system will create an output with the same format as the original path to the images
+
 For examples see `test_on_images.ipynb`.
 
 ## Requirements
@@ -22,5 +17,5 @@ For examples see `test_on_images.ipynb`.
 * Pillow, numpy
 
 ## Credit
-This implementation is heavily inspired by:
-* [pangyupo/mxnet_mtcnn_face_detection](https://github.com/pangyupo/mxnet_mtcnn_face_detection)  
+This implementation and algorithm is completely taken by:
+* [TropComplique/mtcnn-pytorch](https://github.com/TropComplique/mtcnn-pytorch)  
