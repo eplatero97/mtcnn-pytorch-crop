@@ -12,10 +12,33 @@ The system will create an output with the same format as the original path to th
 
 For examples see `test_on_images.ipynb`.
 
-## Dir Format
+## Directory Format
 The root directory format containing the images of interest need to be held in a similar fashion to:
+```linux
+Aaron_Boyd
+  Aaron_Boyd_0001.jpg
+  Aaron_Boyd_0002.jpg
+  ...
 
-![](https://github.com/Erick7451/mtcnn-pytorch-crop/blob/master/images/sample.png)
+Aaron_Evans
+  Aaron_Evans_0001.jpg
+  Aaron_Evans_0002.jpg
+  ...
+  
+Aaron_Hornback
+  Aaron_Hornback_0001.jpg
+  Aaron_Hornback_0002.jpg
+  ...
+ 
+ Aaron_Lewis
+  Aaron_Lewis_0001.jpg
+  Aaron_Lewis_0002.jpg 
+  ...
+  
+  
+  ```
+  This way, every new identity contains its own sub-directory
+  
 
 ## Requirements
 * pytorch 0.2
