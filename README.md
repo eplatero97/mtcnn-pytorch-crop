@@ -14,7 +14,8 @@ For examples see `test_on_images.ipynb`.
 
 ## Dir Format
 The root directory format containing the images of interest need to be held in a similar fashion to:
-![example of dir format](/home/eeplater/Pictures/sample.png)
+
+![](https://github.com/Erick7451/mtcnn-pytorch-crop/blob/master/images/sample.png)
 
 ## Requirements
 * pytorch 0.2
