@@ -34,8 +34,6 @@ Aaron_Hornback
   Aaron_Lewis_0001.jpg
   Aaron_Lewis_0002.jpg 
   ...
-  
-  
   ```
   This way, every new identity contains its own sub-directory
   
