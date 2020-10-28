@@ -43,5 +43,5 @@ Aaron_Hornback
 * Pillow, numpy
 
 ## Credit
-This implementation and algorithm is completely taken by:
+This implementation and algorithm is completely taken from:
 * [TropComplique/mtcnn-pytorch](https://github.com/TropComplique/mtcnn-pytorch)  
